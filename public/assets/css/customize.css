@@ -1,0 +1,235 @@
+body::-webkit-scrollbar {
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #22c55e;
+}
+body::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.uppy-Dashboard-files::-webkit-scrollbar {
+    width: 5px;
+}
+.uppy-Dashboard-files::-webkit-scrollbar-thumb {
+    background-color: #22c55e;
+}
+.uppy-Dashboard-files::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.bg-active {
+    background-color: rgba(34, 197, 94, 0.05);
+}
+
+.nav-link:hover i {
+    color: #22c55e !important;
+    transition: color 0.15s ease-in-out;
+}
+
+.nav-link {
+    border-radius: 10px !important;
+}
+
+.mr1 {
+    margin-right: 1px;
+}
+
+.image-style {
+    height: calc(100% - 2px);
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    display: none;
+    border-radius: 0.4rem;
+}
+
+.image-style-variant {
+    height: calc(100% - 2px);
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    display: none;
+    border-radius: 0.4rem;
+}
+
+.password-eye {
+    position: relative;
+    width: 100%;
+}
+#togglePassword,
+#toggleConfirmPassword {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #999;
+}
+
+.btn-reset {
+    all: unset; /* Reset mọi thuộc tính về giá trị mặc định ban đầu */
+    display: inline-block; /* Nếu là thẻ <a> hoặc muốn giữ layout */
+    cursor: pointer; /* Đảm bảo hiển thị con trỏ khi hover */
+}
+
+.bg-none {
+    background-image: none !important;
+}
+
+.is-invalid::placeholder {
+    color: #ef4d56;
+    opacity: 0.9;
+}
+
+.mb2 {
+    margin-bottom: 2px !important;
+}
+
+.fs10 {
+    font-size: 10px !important;
+}
+
+.py2 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.text-inherit {
+    color: inherit;
+}
+
+.text-underline:hover {
+    text-decoration: underline;
+    color: #22c55e;
+}
+
+.mr2 {
+    margin-right: 2px !important;
+}
+
+.w-h {
+    width: 15px;
+    height: 15px;
+}
+
+.position-quantity {
+    font-size: 8px !important;
+    top: -2.5px;
+    right: -2.5px;
+}
+
+.mb1 {
+    margin-bottom: 1px !important;
+}
+
+.fs-star {
+    font-size: 11px;
+}
+
+.gap1 {
+    gap: 1px !important;
+}
+
+.nav-mt-3 nav {
+    margin-top: 1.5rem !important;
+}
+
+.fs11 {
+    font-size: 11px !important;
+}
+
+.flex-1 {
+    flex: 1 !important;
+}
+
+#editor {
+    height: 500px;
+}
+
+#editor .ql-editor {
+    min-height: 100px !important;
+}
+
+#editor-2 {
+    height: 375px !important;
+}
+
+#editor-2 .ql-editor {
+    min-height: 375px !important;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.mt2 {
+    margin-top: 2px !important;
+}
+
+.remove-attribute-btn {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100rem;
+}
+
+.div-product-image {
+    width: 128px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+}
+
+.user-image {
+    width: 100px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.w-h-20 {
+    width: 20px;
+    height: 20px;
+}
+.mx3 {
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+}
+.ms1 {
+    margin-left: 1px !important;
+}

@@ -1,0 +1,249 @@
+.password-eye {
+    position: relative;
+    width: 100%;
+}
+
+#togglePassword,
+#toggleConfirmPassword {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-size: 18px;
+    color: #999;
+}
+
+.bg-none {
+    background-image: none !important;
+}
+
+.is-invalid::placeholder {
+    color: #ef4d56;
+    opacity: 0.9;
+}
+.fs15 {
+    font-size: 15px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.bg-main {
+    background-color: #22c55e;
+}
+
+.count span,
+.count p {
+    color: white !important;
+}
+
+.product-options {
+    display: flex;
+    gap: 10px;
+}
+
+.product-options .form-check {
+    position: relative;
+}
+
+.product-options .form-check-input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.product-options .form-check-label {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.product-options .form-check-input:checked + .form-check-label {
+    /* background-color: #ff5722; */
+    color: black;
+    border-color: red;
+}
+
+.product-options .form-check-label:hover {
+    background-color: #f5f5f5;
+    border-color: #bbb;
+}
+
+.aspect-ratio {
+    aspect-ratio: 1/1;
+}
+
+.star-rating .fa-star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc; /* Màu sao chưa chọn */
+}
+
+.star-rating .fa-star.selected {
+    color: #ffd700; /* Màu sao khi được chọn */
+}
+
+.product-reviews {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.review-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.review-content {
+    padding-left: 15px;
+}
+
+.review-username {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.star-rating {
+    color: #ffd700; /* Màu vàng cho sao */
+}
+
+.review-text {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.review-date {
+    color: #999;
+    font-size: 14px;
+}
+
+.star-rating .fa-star {
+    font-size: 14px; /* Điều chỉnh kích thước nếu cần */
+}
+
+.star-rating .fa-solid {
+    color: gold; /* Màu cho các sao được chọn */
+}
+
+.star-rating .fa-regular {
+    color: gray; /* Màu cho các sao không được chọn */
+}
+
+.rating-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-rate {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-rate i {
+    margin-right: 5px;
+}
+
+.btn-rate:hover {
+    background-color: #45a049;
+    color: black;
+    transition: color 0.6s ease;
+}
+
+.custom-input {
+    background-color: #f8f9fa; /* Màu nền sáng */
+    border: 1px solid transparent; /* Viền ban đầu trong suốt */
+    border-radius: 0.25rem; /* Đường viền tròn (tùy chọn) */
+    padding: 10px; /* Đệm bên trong */
+    font-size: 16px; /* Kích thước chữ (tùy chọn) */
+    transition: border-color 0.2s; /* Hiệu ứng chuyển tiếp cho viền */
+}
+
+.custom-input:focus {
+    outline: none;
+    border-color: #45a049;
+    box-shadow: 0 0 0 0.2rem rgba(69, 160, 73, 0.25);
+}
+
+.custom-input::placeholder {
+    color: #6c757d; /* Màu chữ trong placeholder */
+}
+.btn-comment {
+    background-color: #22c55e;
+    border-radius: 2px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 15px;
+    text-transform: capitalize;
+}
+.btn-comment:hover {
+    background-color: #45eb82;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.actions-secondary .btn-whishs {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 2px;
+    display: block;
+    font-size: 10px;
+    height: 36px;
+    line-height: 36px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 400ms ease-in 0s;
+    -ms-transition: all 400ms ease-in 0s;
+    transition: all 400ms ease-in 0s;
+    width: 35px;
+    margin-left: 5px;
+    background: transparent;
+    border: 1px solid #22c55e;
+    color: #22c55e;
+}
+
+.actions-secondary .btn-whishs > i {
+    font-size: 16px !important;
+}
+.post1 {
+    width: 400px !important;
+}
+.post1 img {
+    max-width: 300px !important; /* Sử dụng !important để ghi đè các kiểu khác */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#editor img {
+    max-width: 400px;
+    height: auto; /* Giữ nguyên tỉ lệ */
+    display: block; /* Ảnh hiển thị dạng khối */
+    margin: 0 auto; /* Canh giữa ảnh nếu cần */
+}
+.btn-remo {
+    background: none;
+    border: none;
+}
